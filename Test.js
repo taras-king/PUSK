@@ -13,7 +13,7 @@ let marqueeContent = document.getElementById('marqueeContent');
 
 function updateMarqueeText() {
     if (textArray.length > 0) {
-        marqueeContent.textContent = textArray[currentIndex]['title'];
+        marqueeContent.textContent = textArray[currentIndex]['quotes'];
         currentIndex = (currentIndex + 1) % textArray.length;
     }
 }
