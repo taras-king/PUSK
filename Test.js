@@ -18,4 +18,9 @@ function updateMarqueeText() {
     }
 }
 
-setInterval(updateMarqueeText, 1000);
+setTimeout(() => {
+    updateMarqueeText();
+
+    // Subsequent updates every 10 seconds
+    setInterval(updateMarqueeText, 10000);
+}, 1000);
