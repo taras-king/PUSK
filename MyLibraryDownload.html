@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <link rel="stylesheet" href="MyLibrary.css">
+    <link rel="stylesheet" href="MainBlockBarV2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="icon/Логотип.svg">
+    <title>PUSK</title>
+</head>
+<body>
+    <header class="quick-panel">
+        <button>пошук</button>
+        <button id="MethodsButton">методички</button>
+        <button onclick="goToPage('AddOption.html')">додати</button>
+        <button onclick="goToPage('MyLibraryDownload.html')">моя бібліотека</button>
+        <style>
+            .quick-panel > :nth-child(4){
+                text-decoration: underline;
+            }
+        </style>
+        <button onclick="goToPage('Teachers.html')">викладачі</button>
+        <button onclick="goToPage('Support.html')">підтримка</button>
+    </header>
+    <div id="MethodsDiv">
+        <div>
+            <img src="icon/🦆 icon _MS1_.svg" alt="">
+            <img src="icon/🦆 icon _MS2_.svg" alt="">
+            <img src="icon/🦆 icon _MS3_.svg" alt="">
+            <img src="icon/🦆 icon _MS4_.svg" alt="">
+            <img src="icon/🦆 icon _MS5_.svg" alt="">
+            <img src="icon/🦆 icon _MS6_.svg" alt="">
+        </div>
+        <div>
+            <a href="MethodsAP.html">алгоритмізація і програмування</a>
+            <a href="MethodsDM.html">дискретна математика</a>
+            <a href="MethodsLAAG.html">алгебра і геометрія</a>
+            <a href="MethodsPhys.html">фізика</a>
+            <a href="MethodsHistory.html">історія державності і культури україни</a>
+            <a href="MethodsEnglish.html">іноземна мова (за професійним спрямуванням)</a>
+        </div>
+    </div>
+    <div class="panel-dicipline">
+        <img src="icon/Логотип-кривий.svg" alt="">
+        <h1 onclick="goToPage('index.html')">PUSK</h1>
+        <div>
+            <div>
+                <img src="icon/🦆 icon _MS1_.svg" alt=""> 
+                <h1>Алгоритмізація і програмування</h1>
+            </div>
+            <div>
+                <img src="icon/🦆 icon _MS2_.svg" alt="">
+                <h1>Дискретна математика</h1>
+            </div>
+            <div>
+                <img src="icon/🦆 icon _MS3_.svg" alt="">
+                <h1>Алгебра і геометрія</h1>
+            </div>
+            <div>
+                <img src="icon/🦆 icon _MS4_.svg" alt="">
+                <h1>Фізика</h1>
+            </div>
+            <div>
+                <img src="icon/🦆 icon _MS5_.svg" alt="">
+                <h1>Історія і культура України</h1>
+            </div>
+            <div>
+                <img src="icon/🦆 icon _MS6_.svg" alt="">
+                <h1>Англійська мова</h1>
+            </div>
+        </div>
+            <button>Найчастіші запитання</button>
+        <img src="icon/help.svg" alt="">
+    </div>
+        <div class="block-library">
+            <img src="icon/bluebookmarks.svg" alt="">
+            <h1>Моя бібліотека</h1>
+            <a href="MyLibraryDownload.html">завантажені файли</a>
+            <a href="MyLibrarySave.html">збережене</a>
+            <h1>Вкладені файли: 2</h1>
+            <div>
+                <img src="icon/🦆 icon _document file pdf_.svg" alt="" >
+                <img src="icon/🦆 icon _document file pdf_.svg" alt="" >
+                <img src="icon/🦆 icon _document file pdf_.svg" alt="" >
+            </div>
+            <div>
+                <a href="">SaveLab0</a>
+                <a href="">SaveLab1</a>
+                <a href="">SaveLab2</a>
+
+            </div>
+        </div>
+        <script src="goToPage.js"></script>
+    </body>
+</html>

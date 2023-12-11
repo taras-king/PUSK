@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <link rel="stylesheet" href="Teachers.css">
+    <link rel="stylesheet" href="MainBlockBar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="icon/Логотип.svg">
+    <title>PUSK</title>
+</head>
+<body>
+    <div class="Logo" onclick="goToPage('index.html')">
+        <h1>PUSK</h1>
+        <h1>LVIV POLYTECHNIC</h1>
+    </div>
+    <header class="quick-panel">
+        <button>пошук</button>
+        <button id="MethodsButton">методички</button>
+        <button onclick="goToPage('AddOption.html')">додати</button>
+        <button onclick="goToPage('MyLibraryDownload.html')">моя бібліотека</button>
+        <button onclick="goToPage('Teachers.html')">викладачі</button>
+        <style>
+            .quick-panel > :nth-child(5){
+                text-decoration: underline;
+            }
+        </style>
+        <button onclick="goToPage('Support.html')">підтримка</button>
+    </header>
+    <div id="MethodsDiv">
+        <div>
+            <img src="icon/🦆 icon _MS1_.svg" alt="">
+            <img src="icon/🦆 icon _MS2_.svg" alt="">
+            <img src="icon/🦆 icon _MS3_.svg" alt="">
+            <img src="icon/🦆 icon _MS4_.svg" alt="">
+            <img src="icon/🦆 icon _MS5_.svg" alt="">
+            <img src="icon/🦆 icon _MS6_.svg" alt="">
+        </div>
+        <div>
+            <a href="MethodsAP.html">алгоритмізація і програмування</a>
+            <a href="MethodsDM.html">дискретна математика</a>
+            <a href="MethodsLAAG.html">алгебра і геометрія</a>
+            <a href="MethodsPhys.html">фізика</a>
+            <a href="MethodsHistory.html">історія державності і культури україни</a>
+            <a href="MethodsEnglish.html">іноземна мова (за професійним спрямуванням)</a>
+        </div>
+    </div>
+    <div class="user-office">
+        <img src="icon/🦆 icon _user_.svg" alt="" onclick="goToPage('UserOffice.html')">
+        <button onclick="goToPage('Login.html')">вхід</button>
+    </div>
+    <div class="block-teachers">
+        <div>
+            <h1>Алгоритмізація і програмування</h1>
+            <div>
+                <h1>Гілета І. В.</h1>
+                <h1>Лекції</h1>
+            </div>
+            <div>
+                <h1>Кулешник Я. Ф.</h1>
+                <h1>Лабораторні</h1>
+            </div>
+            <div>
+                <h1>Петерега Ю. І.</h1>
+                <h1>Практичні</h1>
+            </div>
+        </div>
+        <div>
+            <h1>Дискретна математика</h1>
+            <div>
+                <h1>Станкевич О. М.</h1>
+                <h1>Лекції</h1>
+            </div>
+            <div>
+                <h1>Ребот Д. П.</h1>
+                <h1>Практичні, Лабораторні</h1>
+            </div>
+            <div>
+                <h1>Іванина В. В.</h1>
+                <h1>Лабораторні</h1>
+            </div>
+        </div>
+        <div>
+            <h1>Алгебра і геометрія</h1>
+            <div>
+                <h1>Пахолок Б. Б.</h1>
+                <h1>Лекції</h1>
+            </div>
+            <div>
+                <h1>Мельник О. М.</h1>
+                <h1>Практичні</h1>
+            </div>
+        </div>
+        <div>
+            <h1>Фізика</h1>
+            <div>
+                <h1>Захаряш О. С.</h1>
+                <h1>Лекції</h1>
+            </div>
+            <div>
+                <h1>Максимич В. М.</h1>
+                <h1>Лабараторні</h1>
+            </div>
+            <div>
+                <h1>Каркульовська М. С.</h1>
+                <h1>Лабараторні</h1>
+            </div>
+        </div>
+        <div>
+            <h1>Історія та культура України</h1>
+            <div>
+                <h1>Ратушна О. М.</h1>
+                <h1>Лекції</h1>
+            </div>
+            <div>
+                <h1>Барановська Н. М.</h1>
+                <h1>Практичні</h1>
+            </div>
+        </div>
+        <div>
+            <h1>Англійська мова</h1>
+            <div>
+                <h1>Скріль І. В.</h1>
+                <h1>Практичні</h1>
+            </div>
+            <div>
+                <h1>Климишин Н. Т.</h1>
+                <h1>Практичні</h1>
+            </div>
+        </div>
+        <div>
+            <h1>Фізична культура</h1>
+            <div>
+                <h1>Кубрак Я. Д.</h1>
+                <h1>Практичні</h1>
+            </div>
+        </div>
+    </div>
+    <script src="goToPage.js"></script>
+</body>
+
+</html>

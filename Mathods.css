@@ -1,0 +1,87 @@
+html{
+    background: var(--background, #F3F6F6);
+}
+.mathods-block{
+    width: 1280px;
+    height: 638px;
+    border-radius: 12px;
+    background: var(--color-secondary-2, #FBFBFC);
+    position: absolute;
+    margin: 202px 0 0 60px;
+}
+
+.mathods-block > div:first-of-type{
+    margin: 60px 0 0 60px;
+    height: auto;
+    width: 790px;
+    position: absolute;
+}
+.mathods-block > div:first-of-type > h1{
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    position: absolute;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 8px;
+    margin-left: 20px;
+}
+.mathods-block > div:first-of-type > img{
+    display: inline-block;
+}
+.mathods-block > div:nth-of-type(2){
+    position: absolute;
+    margin: 152px 0 0 458px;
+}
+.mathods-block > div:nth-of-type(2) > *{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    margin:0 32px 0 0;
+    display: inline-block;
+}
+.mathods-block > div > :not(:nth-child(2)){
+    text-decoration: none;
+    color: #262121;
+}
+.mathods-block > div > a:hover{
+    text-decoration: underline;
+}
+.mathods-block > h1:last-of-type{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    text-transform: uppercase;
+    color: var(--font-secondary, #9B9D9F);
+    position: absolute;
+    margin: 270px 0 0 120px;
+}
+.mathods-block > div:nth-of-type(3){
+    position:absolute;
+    margin: 331px 0 0 138.36px;
+}
+.mathods-block > div:nth-of-type(3) > img{
+    margin: 0 50.99px 0 0;
+}
+.mathods-block > div:last-of-type{
+    position: absolute;
+    margin: 419px 0 0 138.36px;
+}
+.mathods-block > div:last-of-type > a{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: var(--font-secondary, #9B9D9F);
+    margin: 0 78px 0 0;
+}
+.mathods-block > div:last-of-type > a:hover{
+    text-decoration: underline;
+}
