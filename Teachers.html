@@ -64,7 +64,7 @@
                 <h1>Лабораторні</h1>
             </div>
             <div>
-                <h1>Патерега Ю. І.</h1>
+                <h1 id="Paterega">Патерега Ю. І.</h1>
                 <h1>Практичні</h1>
             </div>
         </div>
@@ -140,6 +140,15 @@
         </div>
     </div>
     <script src="goToPage.js"></script>
+    <script> 
+        let Peterega = document.getElementById('Paterega');
+            Peterega.addEventListener('mouseenter', function(){
+                Peterega.innerHTML = 'Петерега Ю. І.';
+            })
+            Peterega.addEventListener('mouseleave', function(){
+                Peterega.innerHTML = 'Патерега Ю. І.';
+            })
+    </script>
 </body>
 
 </html>
