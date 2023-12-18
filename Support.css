@@ -1,0 +1,72 @@
+.icon-edit{
+    z-index: 1;
+    position: absolute;
+    margin: 148px 0 0 400px;
+    cursor: pointer;
+}
+.input{
+    border-radius: 12px;
+    background: #FFF; 
+    position: absolute;
+    margin: 132px 0 0 380px;
+    padding-left: 74px;
+    box-sizing: border-box;
+    width: 1000px;
+    height: 60px;
+    border: none;
+    font-size: 18px;
+}
+.input:focus{
+    outline: none;
+}
+.support-div{
+    position: absolute;
+    margin:220px 0 0 378px ;
+    width: 1000px;
+    height: 600px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.support-div::-webkit-scrollbar {
+    width: 8px;
+  }
+.support-div::-webkit-scrollbar-thumb {
+    background-color: #b6b6b6;
+    border-radius: 10px;
+    width: 8px;
+}
+.support-div::-webkit-scrollbar-track {
+    background-color: #eee;
+    border-radius: 10px;
+}
+.message-container {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    height: auto;
+    width: auto;
+}
+
+.user-info {
+    padding: 10px;
+    width: auto;
+}
+
+.user-info img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.user-info h1 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.message-text {
+    padding: 10px;
+    font-size: 14px;
+}

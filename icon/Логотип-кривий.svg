@@ -1,0 +1,30 @@
+<svg width="52" height="40" viewBox="0 0 52 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="&#208;&#155;&#208;&#190;&#208;&#179;&#208;&#190;&#209;&#130;&#208;&#184;&#208;&#191;">
+<g id="book">
+<path id="Vector 1" d="M51.4246 25.4199L27.9248 38.5C26.4799 39.1973 26.144 39.5 24.4248 39.5C22.4079 39.5 20.4248 38 1.42462 28C0.726424 26.8801 0.49582 22.6111 3.92436 21.5" stroke="#266BD2" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Rectangle 5821" d="M4.96251 21.2414L28.1652 12.3698L49.0002 18.7566C49.4292 18.8882 49.4812 19.4745 49.082 19.6795L26.1052 31.4771C25.6736 31.6988 25.1614 31.6979 24.7305 31.4748L4.96251 21.2414Z" fill="#266BD2" stroke="#266BD2"/>
+</g>
+<g id="hat">
+<g id="Group 32">
+<path id="Rectangle 5820" d="M15.1074 6.59998H36.2397V18.6201H15.1074V6.59998Z" fill="white"/>
+<ellipse id="Ellipse 2" cx="25.6736" cy="18.7192" rx="10.5661" ry="2.08041" fill="white"/>
+</g>
+<g id="Group 31">
+<path id="Rectangle 5820_2" d="M15.7705 6.40247H35.5782V17.9396H15.7705V6.40247Z" fill="#266BD2"/>
+<ellipse id="Ellipse 2_2" cx="25.6607" cy="17.9968" rx="9.90387" ry="1.99682" fill="#266BD2"/>
+</g>
+<g id="Group 36">
+<line id="Line 3" y1="-0.5" x2="6.84651" y2="-0.5" transform="matrix(0.00886173 0.999961 -0.999951 0.00985543 38.2256 6.40247)" stroke="#266BD2"/>
+<g id="Group 34">
+<rect id="Rectangle 5823" x="37.2754" y="14.3867" width="2.9" height="1.4992" fill="white"/>
+<ellipse id="Ellipse 4" cx="38.7254" cy="14.3185" rx="1.45" ry="1.15847" fill="white"/>
+</g>
+<g id="Group 33">
+<rect id="Rectangle 5823_2" x="37.5254" y="14.1996" width="2.40823" height="1.3946" fill="#266BD2"/>
+<ellipse id="Ellipse 4_2" cx="38.7295" cy="14.1362" rx="1.20412" ry="1.07765" fill="#266BD2"/>
+</g>
+</g>
+<path id="Polygon 1" d="M9.15427 6.06973L25.4627 0.265362L41.7712 6.06973L25.4627 11.1486L9.15427 6.06973Z" fill="#266BD2" stroke="white" stroke-width="0.5"/>
+</g>
+</g>
+</svg>
