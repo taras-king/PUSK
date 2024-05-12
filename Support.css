@@ -1,14 +1,14 @@
 .icon-edit{
     z-index: 1;
     position: absolute;
-    margin: 148px 0 0 400px;
+    margin: 187px 0 0 400px;
     cursor: pointer;
 }
 .input{
     border-radius: 12px;
     background: #FFF; 
     position: absolute;
-    margin: 132px 0 0 380px;
+    margin: 172px 0 0 380px;
     padding-left: 74px;
     box-sizing: border-box;
     width: 1000px;

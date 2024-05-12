@@ -16,15 +16,15 @@ cursor:default;
 }
 
 .quick-panel{
-    height: 22px;
-    width: 847px;
-    margin-top: 20.76px;
-    margin-left: 426px;
+    height: 25px;
+    width: 570px;
+    margin-top: 88px;
+    margin-left: 610px;
     position: absolute;
 }
 .quick-panel button{
-    margin-right: 40px;
-    font-size: 18px;
+    margin-right: 48px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -41,7 +41,7 @@ cursor:default;
     margin-right: 0;
 }
 .quick-panel button:hover{
-    background: rgba(0, 0, 0, 0.1);
+    color: #266BD2;
 }
 #MethodsDiv{
     position: absolute;
@@ -87,7 +87,7 @@ cursor:default;
     border-radius: 0px 12px 12px 0px;
     background: #FFF;
     width: 320px;
-    height: 900px;
+    height: 1200px;
     position: absolute;
 }
 .panel-dicipline > :first-child{
@@ -117,12 +117,12 @@ cursor:default;
     margin: 0 0 23px 0;
 }
 .panel-dicipline > div > div > img{
-    width: 15px;
-    height: 16px;
+    width: 35px;
+    height: 35px;
     display: inline-block;
 }
 .panel-dicipline > div > div > h1{
-    font-size: 12px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -146,7 +146,7 @@ cursor:default;
     cursor: pointer;
     border-radius: 8px;
     position: absolute;
-    margin: 824px 0 0 26px;
+    margin: 624px 0 0 26px;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -156,8 +156,10 @@ cursor:default;
 }
 .panel-dicipline > :last-child{
     position: absolute;
-    margin: 832px 0 0 34px;
+    margin: 632px 0 0 34px;
 }
 .panel-dicipline > button:hover{
     background: var(--grey, #d0d0d0);
 }
+
+

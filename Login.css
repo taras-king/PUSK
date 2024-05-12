@@ -6,7 +6,7 @@ body{
     width: 1400px;
     height: 900px;
     background: var(--background, #b9bcbc);
-    color: #262121;
+    color: #FFFFFF;
     margin: auto;
     font-family: 'Roboto', sans-serif;
     position: relative;
@@ -16,14 +16,14 @@ body{
     width: 573px;
     height: 529px;
     border-radius: 9px;
-    background-color: var(--background, #F3F6F6);
+    background-color: var(--background, #266BD2);
     position: absolute;
     margin: 186px 0 0 424px;
     border: 2px solid var(--logo, #266BD2);
 }
 .LogIn-Block>:first-child{
     position: absolute;
-    margin: 80px 0 0 164px;
+    margin: 80px 0 0 176px;
     width: auto;
     height: auto;
 }
@@ -51,18 +51,18 @@ body{
 .LogIn-Block > div:nth-of-type(2){
     width: auto;
     height: auto;
-    margin: 195px 0 0 115px;
+    margin: 195px 0 0 114px;
 }
 .LogIn-Block>div:nth-of-type(2)>h1{
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    text-transform: uppercase;
-}
+    }
+    
 .LogIn-Block>div:nth-of-type(2)>input{
     width: 338px;
-    height: 43.38px;
+    height: 47px;
     border-radius: 12px;
     border: 2px solid var(--logo, #266BD2);
     background: #FFF;
@@ -79,14 +79,14 @@ button{
     border-radius: 8px;
     background: var(--logo, #266BD2);
     color:white;
-    font-size: 16px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px; 
     text-transform: uppercase;
     position: absolute;
     border: #266BD2;
-    margin: 601px 0 0 658px;
+    margin: 601px 0 0 648px;
     cursor: pointer;
     gap: 10px;
 }
@@ -95,5 +95,5 @@ button:active{
     color:rgb(219, 219, 219);
     font-size: 14px;
     line-height: 20px; 
-    margin: 604px 0 0 661px;
+    margin: 607px 0 0 661px;
 }

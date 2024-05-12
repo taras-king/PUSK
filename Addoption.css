@@ -69,8 +69,8 @@
 }
 .add-panel{
     position: absolute;
-    margin: 343px 0 0 380px;
-    width: 960px;
+    margin: 263px 0 0 357px;
+    width: 1025px;
     height: 377px;
     border-radius: 8px;
     background: var(--logo, #266BD2);
@@ -91,7 +91,7 @@
     position: absolute;
 }
 .add-panel > div{
-    width: 840px;
+    width: 895px;
     height: 197px;
     border-radius: 8px;
     background: var(--white, #FFF);

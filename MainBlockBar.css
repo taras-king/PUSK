@@ -42,15 +42,15 @@ cursor:default;
     margin: 0%;
 }
 .quick-panel{
-    height: 22px;
-    width: 847px;
-    margin-top: 80.76px;
-    margin-left: 302px;
+    height: 25px;
+    width: 620px;
+    margin-top: 88px;
+    margin-left: 610px;
     position: absolute;
 }
 .quick-panel button{
-    margin-right: 40px;
-    font-size: 18px;
+    margin-right: 48px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -67,7 +67,7 @@ cursor:default;
     margin-right: 0;
 }
 .quick-panel button:hover{
-    background: rgba(0, 0, 0, 0.1);
+    color: #266BD2;
 }
 #MethodsDiv{
     position: absolute;
@@ -113,7 +113,7 @@ cursor:default;
     position: absolute;
     width: 100px;
     height: 80.996px;
-    margin: 60px 0px 0px 1240px;
+    margin: 65px 0px 0px 1240px;
 }
 .user-office img{
     margin-left: 28.5px;
@@ -140,3 +140,4 @@ cursor:default;
     position: absolute;
     cursor: pointer;
 }
+

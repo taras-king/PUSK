@@ -1,0 +1,24 @@
+.search-panel{
+    border: none;
+    width: 1025px;
+    height: 60px;
+    border-radius: 8px;
+    background: var(--white, #FFF);
+    margin: 178px 0px 0px 359px;
+    position: absolute;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 81.8px;
+    box-sizing: border-box;
+}
+.search-panel:focus{
+    outline: none;
+}
+.icon-search{
+    position: absolute;
+    margin:  194px 0 0 380.25px;
+    z-index: 2;
+    cursor: pointer;
+}
