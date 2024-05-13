@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Login.css">
+    <title>Register</title>
+</head>
+<body>
+    <div class="LogIn-Block">
+        <div>
+            <h1>Реєстрація</h1>
+            <h1>в особистий кабінет</h1>
+        </div>
+        <div class="input-block">
+            <h1>Email</h1>
+            <input type="text" id="email"  placeholder="Введіть свій email...">
+            <h1>Password</h1>
+            <input type="text" id="password" placeholder="Введіть пароль...">
+        </div>
+            <button id="signUpButton">Зареєструватись</button>
+    </div>
+
+    <style>
+        .LogIn-Block
+        {
+            height: 529px;
+        }
+        button{
+            display: inline-flex;
+            padding: 12px 24px;
+            align-items: flex-start;
+            border-radius: 8px;
+            background: var(--logo, #266BD2);
+            color:white;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px; 
+            text-transform: uppercase;
+            position: absolute;
+            border: #266BD2;
+            margin-top: 60px;
+            left:50%;
+            cursor: pointer;
+            gap: 10px;
+        }
+    </style>
+    <script src="https://www.gstatic.com/firebasejs/7.22.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.22.1/firebase-auth.js"></script>
+<script src="auth.js"></script>
+</body>
+</html>
