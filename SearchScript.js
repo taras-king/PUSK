@@ -20,7 +20,6 @@ class InfoTable {
 
     find(str) {
         const index = str.toLowerCase().codePointAt(0)-1000;
-        console.log(0);
         return this.searchTable[index]||[];
     }
 }
@@ -42,7 +41,6 @@ myInput.addEventListener('input', function(event) {
 
 
     var inputValue = Value.toLowerCase();
-    console.log(inputValue);
 
 
     if (inputValue.length === 0 || /^\s*$/.test(inputValue)) {
@@ -58,7 +56,6 @@ myInput.addEventListener('input', function(event) {
         for (let index = 0; index < Arr.length; index++)
         {
             let string = Arr[index].str.toLowerCase();
-            console.log(string);
             if (string.startsWith(inputValue))
                 {
                     Array.push(Arr[index]);
