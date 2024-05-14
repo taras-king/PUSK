@@ -99,3 +99,36 @@ html{
     height: auto;
     margin: 0 auto 10px auto;
 }
+.searchPull
+{
+    position: absolute;
+    width: 1199.2px;
+    height: fit-content;
+    max-height: 1000px;
+    min-height: 50px;
+    background-color: #FBFBFC;
+    margin: 278.25px 0px 0px 135px;
+    border-radius: 12px 0 12px 0;
+    z-index: 4;
+    border: 2px solid #ccc;
+    border-radius: 0 0 12px 12px;
+    display: none;
+}
+.selSearch
+{
+    font-size: 20px;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    align-items: center;
+    display: flex;
+}
+.selDiv
+{
+    border-top: 0.00001px dotted #ccc;
+}
+.selDiv:hover
+{
+    background-color: #e2e1e1;
+}

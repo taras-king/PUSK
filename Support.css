@@ -21,9 +21,9 @@
 }
 .support-div{
     position: absolute;
-    margin:220px 0 0 378px ;
+    margin:240px 0 0 378px ;
     width: 1000px;
-    height: 600px;
+    height: 800px;
     overflow-y: auto;
     overflow-x: hidden;
 }
@@ -45,28 +45,37 @@
     border-radius: 5px;
     overflow: hidden;
     margin-bottom: 20px;
+    height: fit-content;
     height: auto;
-    width: auto;
+    width: fit-content;
+    min-width: 300px;
+    max-width: 1000px;
 }
-
 .user-info {
     padding: 10px;
     width: auto;
 }
 
-.user-info img {
+.user-info > img {
     width: 40px;
     height: 40px;
     margin-right: 10px;
 }
 
-.user-info h1 {
+.user-info > h1 
+{
     font-size: 16px;
     font-weight: 600;
-    margin: 0;
+    margin: 5px 0 0 60px;
+    position: absolute;
+}
+.user-info > span
+{
+ margin-left: 7px;
 }
 
 .message-text {
     padding: 10px;
-    font-size: 14px;
+    font-size: 20px;
+    word-wrap: break-word;
 }

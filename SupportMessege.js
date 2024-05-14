@@ -38,10 +38,11 @@ document.addEventListener("DOMContentLoaded", function() {
         userName.textContent = 'Ім’я користувача';
 
         const timeSpan = document.createElement('span');
-        timeSpan.textContent = 'Тільки що'; // TODO: Замініть на реальний час
+       
+        timeSpan.textContent = formatTime(new Date());
 
-        userInfo.appendChild(userAvatar);
         userInfo.appendChild(userName);
+        userInfo.appendChild(userAvatar);
         userInfo.appendChild(timeSpan);
 
         const messageTextElement = document.createElement('div');
@@ -52,5 +53,13 @@ document.addEventListener("DOMContentLoaded", function() {
         messageContainer.appendChild(messageTextElement);
 
         return messageContainer;
+    }
+    function formatTime(time) {
+        const year = time.getFullYear();
+        const month = (time.getMonth() + 1).toString().padStart(2, '0');
+        const day = time.getDate().toString().padStart(2, '0');
+        const hours = time.getHours().toString().padStart(2, '0');
+        const minutes = time.getMinutes().toString().padStart(2, '0');
+        return `${day}.${month}.${year} ${hours}:${minutes}`;
     }
 });
