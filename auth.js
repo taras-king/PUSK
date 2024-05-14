@@ -1,5 +1,4 @@
 
-
 firebase.initializeApp(firebaseConfig);
 
 var email = document.getElementById("email");
@@ -13,7 +12,7 @@ signInButton?.addEventListener("click", function() {
     firebase.auth().signInWithEmailAndPassword(email.value, password.value)
       .then(function() {
         // Redirect the user to the protected resources page
-        window.location.href = "index.html";
+        window.location.href = "afterAuth.html";
       })
       .catch(function(error) {
         // Show an error message
@@ -26,7 +25,7 @@ signInButton?.addEventListener("click", function() {
     firebase.auth().createUserWithEmailAndPassword(email.value, password.value)
       .then(function() {
         // Redirect the user to the protected resources page
-        window.location.href = "index.html";
+        window.location.href = "afterAuth.html";
       })
       .catch(function(error) {
         // Show an error message
