@@ -11,7 +11,7 @@ html{
     background: var(--white, #FFF);
     margin: 218px 0px 0px 60px;
     position: absolute;
-    font-size: 18px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -102,7 +102,7 @@ html{
 .searchPull
 {
     position: absolute;
-    width: 1199.2px;
+    width: 1202.2px;
     height: fit-content;
     max-height: 1000px;
     min-height: 50px;
@@ -114,21 +114,29 @@ html{
     border-radius: 0 0 12px 12px;
     display: none;
 }
-.selSearch
+span
 {
-    font-size: 20px;
-    padding: 10px;
+    font-size: 22px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     color: black;
     text-decoration: none;
-    font-weight: 600;
     align-items: center;
-    display: flex;
+    display: inline-flex;
 }
 .selDiv
 {
     border-top: 0.00001px dotted #ccc;
+    padding-left: 5px;
 }
 .selDiv:hover
 {
     background-color: #e2e1e1;
+}
+.blackText {
+    color: black;
+}
+
+.greyText {
+    color: grey;
 }

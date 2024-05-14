@@ -64,23 +64,35 @@ myInput.addEventListener('input', function(event) {
                     Array.push(Arr[index]);
                 }
         }
-        for(let i = 0; i < Array.length; i++)
-            {
-                displayResults(Array[i]);
-            }                
+        for (let i = 0; i < Array.length; i++) {
+            displayResults(Array[i], inputValue);
+        }              
             
     } else {
         searchPull.style.display = 'none'; 
     }
 });
 
-function displayResults(result) {
+function displayResults(result, inputValue) {
     const SelectDiv = document.createElement('div');
     SelectDiv.classList.add('selDiv');
     searchPull.appendChild(SelectDiv);
     const SelectSearch = document.createElement('a');
     SelectSearch.classList.add('selSearch');
     SelectSearch.href = result.ref;
-    SelectSearch.textContent = result.str;
     SelectDiv.appendChild(SelectSearch);
+    for (let i = 0; i < result.str.length; i++) {
+        const span = document.createElement('span');
+            span.textContent = result.str[i];
+            if (span.textContent === " ") {
+                let space = "&nbsp;";
+                span.innerHTML = space;
+            }
+        if (i < inputValue.length) {
+            span.classList.add('blackText');
+        } else {
+            span.classList.add('greyText');
+        }
+        SelectSearch.appendChild(span);
+    }
 }
