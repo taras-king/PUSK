@@ -85,7 +85,6 @@ function displayResults(result) {
     SelectSearch.classList.add('selSearch');
     SelectSearch.href = result.ref;
     SelectSearch.textContent = result.str;
-    SelectSearch.target = '_blank';
     SelectDiv.appendChild(SelectSearch);
 }
    
