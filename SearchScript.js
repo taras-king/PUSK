@@ -13,7 +13,7 @@ class InfoTable {
     insert(str, ref) {
         const index = str.toLowerCase().codePointAt(0)-1000;        
         if (!this.searchTable[index]) {
-            this.searchTable[index] = []; // Ініціалізуємо внутрішній масив, якщо його немає
+            this.searchTable[index] = [];
         }
         this.searchTable[index].push(new Bucket(str, ref));
     }
@@ -21,7 +21,7 @@ class InfoTable {
     find(str) {
         const index = str.toLowerCase().codePointAt(0)-1000;
         console.log(0);
-        return this.searchTable[index]||[]; // Повертаємо порожній масив, якщо внутрішній масив не існує
+        return this.searchTable[index]||[];
     }
 }
 
@@ -41,14 +41,11 @@ myInput.addEventListener('input', function(event) {
     var Value = event.target.value.trim();
 
 
-// Зводимо до нижнього регістру
     var inputValue = Value.toLowerCase();
-    console.log(inputValue); // виведе "приклад строки"
+    console.log(inputValue);
 
-    
-    // Перевірка, чи введений текст не містить лише пробіли
+
     if (inputValue.length === 0 || /^\s*$/.test(inputValue)) {
-        // Якщо так, приховуємо блок пошуку та виходимо з обробника подій
         searchPull.style.display = 'none';
         return;
     }
@@ -87,4 +84,3 @@ function displayResults(result) {
     SelectSearch.textContent = result.str;
     SelectDiv.appendChild(SelectSearch);
 }
-   
